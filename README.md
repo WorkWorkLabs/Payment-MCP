@@ -56,7 +56,7 @@ Create a new payment request with a specified amount and currency.
 
 **Parameters:**
 - `amount` (number): The amount to request
-- `currency` (string): Cryptocurrency symbol (BTC, ETH, USDC, USDT)
+- `currency` (string): Cryptocurrency symbol (, ETH, USDC, USDT)
 - `description` (string, optional): Description of the payment request
 
 ### `check_payment_status`
@@ -71,13 +71,13 @@ Initiate a cryptocurrency payment to a specified address.
 **Parameters:**
 - `to` (string): Recipient's cryptocurrency address
 - `amount` (number): Amount to send
-- `currency` (string): Cryptocurrency symbol (BTC, ETH, USDC, USDT)
+- `currency` (string): Cryptocurrency symbol (ETH, USDC, USDT)
 
 ### `get_wallet_address`
 Get the wallet address for a specific cryptocurrency.
 
 **Parameters:**
-- `currency` (string): Cryptocurrency symbol (BTC, ETH, USDC, USDT)
+- `currency` (string): Cryptocurrency symbol (ETH, USDC, USDT)
 
 ## Project Structure
 
